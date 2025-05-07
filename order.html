@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>焼き鳥注文サイト</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>焼き鳥注文フォーム</h1>
+  <form action="/javaweb/shopserv" method="post">
+    <table class="form-table">
+      <thead>
+        <tr>
+          <th>商品名</th>
+          <th>価格（円）</th>
+          <th>数量</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ねぎま</td>
+          <td>150</td>
+          <td><input type="number" name="negima" min="0" value="0"></td>
+        </tr>
+        <tr>
+          <td>つくね</td>
+          <td>180</td>
+          <td><input type="number" name="tsukune" min="0" value="0"></td>
+        </tr>
+        <tr>
+          <td>皮</td>
+          <td>120</td>
+          <td><input type="number" name="kawa" min="0" value="0"></td>
+        </tr>
+        <tr>
+          <td>砂肝</td>
+          <td>130</td>
+          <td><input type="number" name="sunagimo" min="0" value="0"></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <button type="submit">注文する</button>
+  </form>
+</body>
+</html>
