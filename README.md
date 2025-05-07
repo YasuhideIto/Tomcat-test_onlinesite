@@ -1,6 +1,6 @@
 # オンライン注文サイト
 #実行手順
 1.apatch-tomcat-9.0.102をダウンロード
-2.webapps内にこのフォルダを貼り付け
+2.webapps内にこの新規フォルダ（任意のフォルダ名）にこのファイルすべてを入れる
 3.binフォルダからサーバー起動
-4.検索エンジンのurlに「localhost:8080/javaweb/index.html」を検索。
+4.検索エンジンのurlに「localhost:8080/任意のフォルダ名/index.html」を検索。
